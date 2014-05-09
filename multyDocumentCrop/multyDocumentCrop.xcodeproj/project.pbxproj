@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64C3E896191CE0EE001B0CFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C3E895191CE0EE001B0CFF /* Foundation.framework */; };
+		64C3E898191CE0EE001B0CFF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C3E897191CE0EE001B0CFF /* CoreGraphics.framework */; };
+		64C3E89A191CE0EE001B0CFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C3E899191CE0EE001B0CFF /* UIKit.framework */; };
+		64C3E8A0191CE0EE001B0CFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64C3E89E191CE0EE001B0CFF /* InfoPlist.strings */; };
+		64C3E8A2191CE0EE001B0CFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C3E8A1191CE0EE001B0CFF /* main.m */; };
+		64C3E8A6191CE0EE001B0CFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C3E8A5191CE0EE001B0CFF /* AppDelegate.m */; };
+		64C3E8A8191CE0EE001B0CFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C3E8A7191CE0EE001B0CFF /* Images.xcassets */; };
+		64C3E8AF191CE0EF001B0CFF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C3E8AE191CE0EF001B0CFF /* XCTest.framework */; };
+		64C3E8B0191CE0EF001B0CFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C3E895191CE0EE001B0CFF /* Foundation.framework */; };
+		64C3E8B1191CE0EF001B0CFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C3E899191CE0EE001B0CFF /* UIKit.framework */; };
+		64C3E8B9191CE0EF001B0CFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64C3E8B7191CE0EF001B0CFF /* InfoPlist.strings */; };
+		64C3E8BB191CE0EF001B0CFF /* multyDocumentCropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C3E8BA191CE0EF001B0CFF /* multyDocumentCropTests.m */; };
+		64C3E8C7191CE14B001B0CFF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C3E8C5191CE14B001B0CFF /* MainViewController.m */; };
+		64C3E8C8191CE14B001B0CFF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C3E8C6191CE14B001B0CFF /* MainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64C3E8B2191CE0EF001B0CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64C3E88A191CE0EE001B0CFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64C3E891191CE0EE001B0CFF;
+			remoteInfo = multyDocumentCrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64C3E892191CE0EE001B0CFF /* multyDocumentCrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multyDocumentCrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C3E895191CE0EE001B0CFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64C3E897191CE0EE001B0CFF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64C3E899191CE0EE001B0CFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64C3E89D191CE0EE001B0CFF /* multyDocumentCrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "multyDocumentCrop-Info.plist"; sourceTree = "<group>"; };
+		64C3E89F191CE0EE001B0CFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64C3E8A1191CE0EE001B0CFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64C3E8A3191CE0EE001B0CFF /* multyDocumentCrop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "multyDocumentCrop-Prefix.pch"; sourceTree = "<group>"; };
+		64C3E8A4191CE0EE001B0CFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64C3E8A5191CE0EE001B0CFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64C3E8A7191CE0EE001B0CFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		64C3E8AD191CE0EF001B0CFF /* multyDocumentCropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multyDocumentCropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C3E8AE191CE0EF001B0CFF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		64C3E8B6191CE0EF001B0CFF /* multyDocumentCropTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "multyDocumentCropTests-Info.plist"; sourceTree = "<group>"; };
+		64C3E8B8191CE0EF001B0CFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64C3E8BA191CE0EF001B0CFF /* multyDocumentCropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = multyDocumentCropTests.m; sourceTree = "<group>"; };
+		64C3E8C4191CE14B001B0CFF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		64C3E8C5191CE14B001B0CFF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		64C3E8C6191CE14B001B0CFF /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64C3E88F191CE0EE001B0CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C3E898191CE0EE001B0CFF /* CoreGraphics.framework in Frameworks */,
+				64C3E89A191CE0EE001B0CFF /* UIKit.framework in Frameworks */,
+				64C3E896191CE0EE001B0CFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C3E8AA191CE0EF001B0CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C3E8AF191CE0EF001B0CFF /* XCTest.framework in Frameworks */,
+				64C3E8B1191CE0EF001B0CFF /* UIKit.framework in Frameworks */,
+				64C3E8B0191CE0EF001B0CFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64C3E889191CE0EE001B0CFF = {
+			isa = PBXGroup;
+			children = (
+				64C3E89B191CE0EE001B0CFF /* multyDocumentCrop */,
+				64C3E8B4191CE0EF001B0CFF /* multyDocumentCropTests */,
+				64C3E894191CE0EE001B0CFF /* Frameworks */,
+				64C3E893191CE0EE001B0CFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64C3E893191CE0EE001B0CFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64C3E892191CE0EE001B0CFF /* multyDocumentCrop.app */,
+				64C3E8AD191CE0EF001B0CFF /* multyDocumentCropTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64C3E894191CE0EE001B0CFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64C3E895191CE0EE001B0CFF /* Foundation.framework */,
+				64C3E897191CE0EE001B0CFF /* CoreGraphics.framework */,
+				64C3E899191CE0EE001B0CFF /* UIKit.framework */,
+				64C3E8AE191CE0EF001B0CFF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64C3E89B191CE0EE001B0CFF /* multyDocumentCrop */ = {
+			isa = PBXGroup;
+			children = (
+				64C3E8A4191CE0EE001B0CFF /* AppDelegate.h */,
+				64C3E8A5191CE0EE001B0CFF /* AppDelegate.m */,
+				64C3E8A7191CE0EE001B0CFF /* Images.xcassets */,
+				64C3E89C191CE0EE001B0CFF /* Supporting Files */,
+				64C3E8C4191CE14B001B0CFF /* MainViewController.h */,
+				64C3E8C5191CE14B001B0CFF /* MainViewController.m */,
+				64C3E8C6191CE14B001B0CFF /* MainViewController.xib */,
+			);
+			path = multyDocumentCrop;
+			sourceTree = "<group>";
+		};
+		64C3E89C191CE0EE001B0CFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64C3E89D191CE0EE001B0CFF /* multyDocumentCrop-Info.plist */,
+				64C3E89E191CE0EE001B0CFF /* InfoPlist.strings */,
+				64C3E8A1191CE0EE001B0CFF /* main.m */,
+				64C3E8A3191CE0EE001B0CFF /* multyDocumentCrop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64C3E8B4191CE0EF001B0CFF /* multyDocumentCropTests */ = {
+			isa = PBXGroup;
+			children = (
+				64C3E8BA191CE0EF001B0CFF /* multyDocumentCropTests.m */,
+				64C3E8B5191CE0EF001B0CFF /* Supporting Files */,
+			);
+			path = multyDocumentCropTests;
+			sourceTree = "<group>";
+		};
+		64C3E8B5191CE0EF001B0CFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64C3E8B6191CE0EF001B0CFF /* multyDocumentCropTests-Info.plist */,
+				64C3E8B7191CE0EF001B0CFF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64C3E891191CE0EE001B0CFF /* multyDocumentCrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C3E8BE191CE0EF001B0CFF /* Build configuration list for PBXNativeTarget "multyDocumentCrop" */;
+			buildPhases = (
+				64C3E88E191CE0EE001B0CFF /* Sources */,
+				64C3E88F191CE0EE001B0CFF /* Frameworks */,
+				64C3E890191CE0EE001B0CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = multyDocumentCrop;
+			productName = multyDocumentCrop;
+			productReference = 64C3E892191CE0EE001B0CFF /* multyDocumentCrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64C3E8AC191CE0EF001B0CFF /* multyDocumentCropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C3E8C1191CE0EF001B0CFF /* Build configuration list for PBXNativeTarget "multyDocumentCropTests" */;
+			buildPhases = (
+				64C3E8A9191CE0EF001B0CFF /* Sources */,
+				64C3E8AA191CE0EF001B0CFF /* Frameworks */,
+				64C3E8AB191CE0EF001B0CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64C3E8B3191CE0EF001B0CFF /* PBXTargetDependency */,
+			);
+			name = multyDocumentCropTests;
+			productName = multyDocumentCropTests;
+			productReference = 64C3E8AD191CE0EF001B0CFF /* multyDocumentCropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64C3E88A191CE0EE001B0CFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Relifeit;
+				TargetAttributes = {
+					64C3E8AC191CE0EF001B0CFF = {
+						TestTargetID = 64C3E891191CE0EE001B0CFF;
+					};
+				};
+			};
+			buildConfigurationList = 64C3E88D191CE0EE001B0CFF /* Build configuration list for PBXProject "multyDocumentCrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64C3E889191CE0EE001B0CFF;
+			productRefGroup = 64C3E893191CE0EE001B0CFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64C3E891191CE0EE001B0CFF /* multyDocumentCrop */,
+				64C3E8AC191CE0EF001B0CFF /* multyDocumentCropTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64C3E890191CE0EE001B0CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C3E8A0191CE0EE001B0CFF /* InfoPlist.strings in Resources */,
+				64C3E8C8191CE14B001B0CFF /* MainViewController.xib in Resources */,
+				64C3E8A8191CE0EE001B0CFF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C3E8AB191CE0EF001B0CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C3E8B9191CE0EF001B0CFF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64C3E88E191CE0EE001B0CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C3E8A6191CE0EE001B0CFF /* AppDelegate.m in Sources */,
+				64C3E8C7191CE14B001B0CFF /* MainViewController.m in Sources */,
+				64C3E8A2191CE0EE001B0CFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C3E8A9191CE0EF001B0CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C3E8BB191CE0EF001B0CFF /* multyDocumentCropTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64C3E8B3191CE0EF001B0CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64C3E891191CE0EE001B0CFF /* multyDocumentCrop */;
+			targetProxy = 64C3E8B2191CE0EF001B0CFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64C3E89E191CE0EE001B0CFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64C3E89F191CE0EE001B0CFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64C3E8B7191CE0EF001B0CFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64C3E8B8191CE0EF001B0CFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64C3E8BC191CE0EF001B0CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64C3E8BD191CE0EF001B0CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64C3E8BF191CE0EF001B0CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "multyDocumentCrop/multyDocumentCrop-Prefix.pch";
+				INFOPLIST_FILE = "multyDocumentCrop/multyDocumentCrop-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64C3E8C0191CE0EF001B0CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "multyDocumentCrop/multyDocumentCrop-Prefix.pch";
+				INFOPLIST_FILE = "multyDocumentCrop/multyDocumentCrop-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		64C3E8C2191CE0EF001B0CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/multyDocumentCrop.app/multyDocumentCrop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "multyDocumentCrop/multyDocumentCrop-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "multyDocumentCropTests/multyDocumentCropTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		64C3E8C3191CE0EF001B0CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/multyDocumentCrop.app/multyDocumentCrop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "multyDocumentCrop/multyDocumentCrop-Prefix.pch";
+				INFOPLIST_FILE = "multyDocumentCropTests/multyDocumentCropTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64C3E88D191CE0EE001B0CFF /* Build configuration list for PBXProject "multyDocumentCrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C3E8BC191CE0EF001B0CFF /* Debug */,
+				64C3E8BD191CE0EF001B0CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C3E8BE191CE0EF001B0CFF /* Build configuration list for PBXNativeTarget "multyDocumentCrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C3E8BF191CE0EF001B0CFF /* Debug */,
+				64C3E8C0191CE0EF001B0CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64C3E8C1191CE0EF001B0CFF /* Build configuration list for PBXNativeTarget "multyDocumentCropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C3E8C2191CE0EF001B0CFF /* Debug */,
+				64C3E8C3191CE0EF001B0CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64C3E88A191CE0EE001B0CFF /* Project object */;
+}
