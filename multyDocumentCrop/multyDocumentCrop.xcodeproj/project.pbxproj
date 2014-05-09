@@ -21,6 +21,16 @@
 		64C3E8BB191CE0EF001B0CFF /* multyDocumentCropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C3E8BA191CE0EF001B0CFF /* multyDocumentCropTests.m */; };
 		64C3E8C7191CE14B001B0CFF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C3E8C5191CE14B001B0CFF /* MainViewController.m */; };
 		64C3E8C8191CE14B001B0CFF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C3E8C6191CE14B001B0CFF /* MainViewController.xib */; };
+		64C3E8CA191CE3D4001B0CFF /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C3E8C9191CE3D4001B0CFF /* opencv2.framework */; };
+		64C3E8CC191CE3FF001B0CFF /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C3E8CB191CE3FF001B0CFF /* CoreImage.framework */; };
+		64C3E8CE191CE406001B0CFF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C3E8CD191CE406001B0CFF /* QuartzCore.framework */; };
+		64C3E8D0191CE413001B0CFF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C3E8CF191CE413001B0CFF /* ImageIO.framework */; };
+		64C3E8D2191CE41B001B0CFF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C3E8D1191CE41B001B0CFF /* AVFoundation.framework */; };
+		64C3E8D4191CE424001B0CFF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C3E8D3191CE424001B0CFF /* MediaPlayer.framework */; };
+		64C3E8D6191CE42D001B0CFF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C3E8D5191CE42D001B0CFF /* CoreMedia.framework */; };
+		64C3E8D8191CE436001B0CFF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C3E8D7191CE436001B0CFF /* CoreVideo.framework */; };
+		64C3E8DA191CE43F001B0CFF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C3E8D9191CE43F001B0CFF /* AssetsLibrary.framework */; };
+		64C3E8DC191CE449001B0CFF /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C3E8DB191CE449001B0CFF /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,16 @@
 		64C3E8C4191CE14B001B0CFF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		64C3E8C5191CE14B001B0CFF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		64C3E8C6191CE14B001B0CFF /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		64C3E8C9191CE3D4001B0CFF /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		64C3E8CB191CE3FF001B0CFF /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		64C3E8CD191CE406001B0CFF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		64C3E8CF191CE413001B0CFF /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		64C3E8D1191CE41B001B0CFF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		64C3E8D3191CE424001B0CFF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		64C3E8D5191CE42D001B0CFF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		64C3E8D7191CE436001B0CFF /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		64C3E8D9191CE43F001B0CFF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		64C3E8DB191CE449001B0CFF /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +80,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64C3E8DC191CE449001B0CFF /* Accelerate.framework in Frameworks */,
+				64C3E8DA191CE43F001B0CFF /* AssetsLibrary.framework in Frameworks */,
+				64C3E8D8191CE436001B0CFF /* CoreVideo.framework in Frameworks */,
+				64C3E8D6191CE42D001B0CFF /* CoreMedia.framework in Frameworks */,
+				64C3E8D4191CE424001B0CFF /* MediaPlayer.framework in Frameworks */,
+				64C3E8D2191CE41B001B0CFF /* AVFoundation.framework in Frameworks */,
+				64C3E8D0191CE413001B0CFF /* ImageIO.framework in Frameworks */,
+				64C3E8CE191CE406001B0CFF /* QuartzCore.framework in Frameworks */,
+				64C3E8CC191CE3FF001B0CFF /* CoreImage.framework in Frameworks */,
 				64C3E898191CE0EE001B0CFF /* CoreGraphics.framework in Frameworks */,
 				64C3E89A191CE0EE001B0CFF /* UIKit.framework in Frameworks */,
+				64C3E8CA191CE3D4001B0CFF /* opencv2.framework in Frameworks */,
 				64C3E896191CE0EE001B0CFF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +131,16 @@
 		64C3E894191CE0EE001B0CFF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64C3E8DB191CE449001B0CFF /* Accelerate.framework */,
+				64C3E8D9191CE43F001B0CFF /* AssetsLibrary.framework */,
+				64C3E8D7191CE436001B0CFF /* CoreVideo.framework */,
+				64C3E8D5191CE42D001B0CFF /* CoreMedia.framework */,
+				64C3E8D3191CE424001B0CFF /* MediaPlayer.framework */,
+				64C3E8D1191CE41B001B0CFF /* AVFoundation.framework */,
+				64C3E8CF191CE413001B0CFF /* ImageIO.framework */,
+				64C3E8CD191CE406001B0CFF /* QuartzCore.framework */,
+				64C3E8CB191CE3FF001B0CFF /* CoreImage.framework */,
+				64C3E8C9191CE3D4001B0CFF /* opencv2.framework */,
 				64C3E895191CE0EE001B0CFF /* Foundation.framework */,
 				64C3E897191CE0EE001B0CFF /* CoreGraphics.framework */,
 				64C3E899191CE0EE001B0CFF /* UIKit.framework */,
@@ -367,6 +407,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "multyDocumentCrop/multyDocumentCrop-Prefix.pch";
 				INFOPLIST_FILE = "multyDocumentCrop/multyDocumentCrop-Info.plist";
@@ -382,6 +426,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "multyDocumentCrop/multyDocumentCrop-Prefix.pch";
 				INFOPLIST_FILE = "multyDocumentCrop/multyDocumentCrop-Info.plist";
