@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
             <connections>
+                <outlet property="anteprima" destination="EIs-Nt-DQK" id="p9R-Rn-v56"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,13 +15,15 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKS-uH-FvT">
-                    <rect key="frame" x="137" y="269" width="46" height="30"/>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EIs-Nt-DQK">
+                    <rect key="frame" x="0.0" y="20" width="320" height="490"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="46" id="gFQ-6P-3Qb"/>
-                    </constraints>
-                    <state key="normal" title="INIZIA">
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </webView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKS-uH-FvT">
+                    <rect key="frame" x="61" y="518" width="199" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Acquisisci nuovo documento">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
@@ -28,10 +31,14 @@
                     </connections>
                 </button>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="dKS-uH-FvT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4oc-CJ-lUT"/>
-                <constraint firstItem="dKS-uH-FvT" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Wxo-nw-9H6"/>
+                <constraint firstItem="dKS-uH-FvT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Jit-fb-bL8"/>
+                <constraint firstItem="dKS-uH-FvT" firstAttribute="top" secondItem="EIs-Nt-DQK" secondAttribute="bottom" constant="8" id="RY5-hQ-fIf"/>
+                <constraint firstAttribute="trailing" secondItem="EIs-Nt-DQK" secondAttribute="trailing" id="d16-P9-24F"/>
+                <constraint firstAttribute="bottom" secondItem="dKS-uH-FvT" secondAttribute="bottom" constant="20" symbolic="YES" id="get-1D-SM3"/>
+                <constraint firstItem="EIs-Nt-DQK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="za9-ww-W9r"/>
+                <constraint firstItem="EIs-Nt-DQK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="zp6-1F-HHc"/>
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>

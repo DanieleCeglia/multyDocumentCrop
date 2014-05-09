@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MAImagePickerController.h"
 
-@interface MainViewController : UIViewController
+@interface MainViewController : UIViewController <MAImagePickerControllerDelegate, UIActionSheetDelegate>
+
+@property (weak, nonatomic) IBOutlet UIWebView *anteprima;
 
 - (IBAction)iniziaTest:(id)sender;
 
