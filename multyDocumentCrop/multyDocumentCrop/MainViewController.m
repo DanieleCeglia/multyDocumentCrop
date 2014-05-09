@@ -17,7 +17,6 @@
 @interface MainViewController ()
 {
     NSMutableArray *arrayImmaginiScattateJPEG;
-    UIImage *immagineCorrente;
     CGSize pageSize;
     NSString *percorsoFilePDF;
     NSString *documentsDirectory;
@@ -101,14 +100,8 @@
 
 #pragma mark - Private methods
 
-- (void)disegnaImmagineConIndice:(int)indice
+- (void)disegnaImmagine:(UIImage *)immagineCorrente
 {
-    NSString *percorsoImmagineCorrente = arrayImmaginiScattateJPEG[indice];
-    
-    NSData *data = [[NSFileManager defaultManager] contentsAtPath:percorsoImmagineCorrente];
-    
-    immagineCorrente = [UIImage imageWithData:data];
-    
     [immagineCorrente drawInRect:CGRectMake(0, 0, immagineCorrente.size.width, immagineCorrente.size.height)];
 }
 
@@ -122,9 +115,14 @@
     while (paginaCorrente < numeroPagine)
     {
         // inizio una nuova pagina
-        UIGraphicsBeginPDFPageWithInfo(CGRectMake(0, 0, pageSize.width, pageSize.height), nil);
         
-        [self disegnaImmagineConIndice:paginaCorrente];
+        NSString *percorsoImmagineCorrente = arrayImmaginiScattateJPEG[paginaCorrente];
+        NSData *data = [[NSFileManager defaultManager] contentsAtPath:percorsoImmagineCorrente];
+        UIImage *immagineCorrente = [UIImage imageWithData:data];
+        
+        UIGraphicsBeginPDFPageWithInfo(CGRectMake(0, 0, immagineCorrente.size.width, immagineCorrente.size.height), nil);
+        
+        [self disegnaImmagine:immagineCorrente];
         
         paginaCorrente++;
     }
@@ -142,13 +140,29 @@
 {
     NSError *errore;
     
+    if ([[NSFileManager defaultManager] fileExistsAtPath:percorsoDestinazione])
+    {
+        // se il file esiste già lo cancello, che poi lo devo sovrascrivere...
+        
+        [[NSFileManager defaultManager] removeItemAtPath:percorsoDestinazione error:&errore];
+        
+        if (errore)
+        {
+            NSLog(@"Errore cancellazione: %@", [errore localizedDescription]);
+            
+            return;
+        }
+    }
+    
+    // copio file...
+    
     [[NSFileManager defaultManager] copyItemAtPath:percorsoOrigine
                                             toPath:percorsoDestinazione
                                              error:&errore];
     
     if (errore)
     {
-        NSLog(@"Error description-%@ \n", [errore localizedDescription]);
+        NSLog(@"Errore scrittura: %@", [errore localizedDescription]);
     }
 }
 
