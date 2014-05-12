@@ -157,7 +157,8 @@
         // [UIColor colorWithRed:0.52f green:0.65f blue:0.80f alpha:1.00f];
         
         CGContextSetRGBFillColor(context, 0.0f, 0.0f, 0.0f, 0.7f);
-        CGContextSetRGBStrokeColor(context, 1.00f, 0.43f, 0.08f, 1.0f);
+        //CGContextSetRGBStrokeColor(context, 1.00f, 0.43f, 0.08f, 1.0f);
+        CGContextSetRGBStrokeColor(context, 0/255.0f, 154/255.0f, 203/255.0f, 1.0f); // colore QUOKKY
         CGContextSetLineJoin(context, kCGLineJoinRound);
         CGContextSetLineWidth(context, 4.0f);
         
