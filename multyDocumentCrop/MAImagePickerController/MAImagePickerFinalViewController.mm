@@ -70,6 +70,8 @@
     [_progressIndicator setHidesWhenStopped:YES];
     [_progressIndicator stopAnimating];
     [self.view addSubview:_progressIndicator];
+    
+    [self storeImageToCache];
 }
 
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
