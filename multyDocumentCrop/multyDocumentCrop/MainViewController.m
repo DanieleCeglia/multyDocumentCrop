@@ -52,8 +52,6 @@
      [NSURLRequest requestWithURL:
       [NSURL fileURLWithPath:
        [[NSBundle mainBundle] pathForResource:@"test" ofType:@"pdf"] isDirectory:NO]]];
-    
-    _anteprima.scalesPageToFit = YES; // abilito lo zoom nel pdf
 }
 
 - (void)didReceiveMemoryWarning
