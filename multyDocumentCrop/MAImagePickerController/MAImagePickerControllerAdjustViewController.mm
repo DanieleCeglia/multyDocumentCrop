@@ -14,8 +14,9 @@
 #import <QuartzCore/QuartzCore.h>
 
 @interface MAImagePickerControllerAdjustViewController ()
-
-
+{
+    BOOL bordiAutomaticamenteTrovati;
+}
 @end
 
 @implementation MAImagePickerControllerAdjustViewController
@@ -98,10 +99,21 @@
 
 - (void)resetRectFrame
 {
-    _adjustedImage = _sourceImage;
-    [_sourceImageView setImage:_adjustedImage];
-    [_adjustRect setHidden:NO];
-    [_adjustRect resetFrame];
+    if (bordiAutomaticamenteTrovati)
+    {
+        // allora resetto il frame alle massime dimensioni
+        
+        _adjustedImage = _sourceImage;
+        [_sourceImageView setImage:_adjustedImage];
+        [_adjustRect setHidden:NO];
+        [_adjustRect resetFrame];
+        
+        bordiAutomaticamenteTrovati = NO;
+    }
+    else
+    {
+        [self detectEdges];
+    }
 }
 
 - (void)detectEdges
@@ -198,6 +210,8 @@
     [_sourceImageView setImage:[MAOpenCV UIImageFromCVMat:original]];
     [_sourceImageView setContentMode:UIViewContentModeScaleAspectFit];
      */
+    
+    bordiAutomaticamenteTrovati = YES;
 }
 
 - (void)confirmedImage
